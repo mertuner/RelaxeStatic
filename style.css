@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    font-family: 'Satisfy';
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+    font-family: 'Satisfy';
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav h2{
+    font-size: 30px;
+    padding-left: 5%;
+    padding-top: 32px;
+}
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btnContiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.vd {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+h1{
+    font-size: 42px;
+    color: white;
+}
+
+.moodInput {
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(73, 219, 255, 0.8); 
+    width: 35%;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-family: 'Satisfy';
+}
+
+
+.moodInput:focus{
+    outline: none;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 229, 80);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 25px;
+    font-family: 'Satisfy';
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
